@@ -1,4 +1,4 @@
-.carrosel__titulo {
+.carrossel__titulo {
     background-color: var(--branco);
     color: var(--laranja);
     text-align: center;
@@ -98,7 +98,7 @@ width: 100%;
 
 @media screen and (min-width: 1024px) { 
 
-.carrosel__titulo {
+.carrossel__titulo {
     font-size: 26px;
 }
 
@@ -118,5 +118,36 @@ width: 100%;
     width: 45%;
     margin: 2em auto;
 }
+}
 
+@media screen and (min-width: 1728px) { 
+.carrossel__container {
+    display: flex;
+    margin: 0 20vw 3em 20vw;
+    align-items: center;
+}
+
+.swiper-pagination {
+    margin: 1em 0;
+}
+
+.swiper {
+    width: 50%;
+}
+
+.descricao__titulo {
+   font-size: 32px;
+}
+
+.descricao__texto {
+    font-size: 16px;
+}
+
+.card {
+    width: 60%;
+    margin-left: 5em;
+}
+.descricao {
+    margin-right: 2em;
+}
 }
