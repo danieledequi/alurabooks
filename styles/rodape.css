@@ -48,7 +48,7 @@
 }
 }
 
-@media screen and (min-width: 1728px) { 
+@media screen and (min-width: 1366px) { 
 .lista-rodape {
     border-left: 1px solid var(--cinza-claro);
     padding-left: 1.5em;
@@ -56,5 +56,9 @@
 
 .rodape {
     padding: 3em 0;
+}
+
+.lista-rodape__link:hover {
+    color: var(--laranja);
 }
 }

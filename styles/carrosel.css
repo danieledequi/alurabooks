@@ -120,7 +120,23 @@ width: 100%;
 }
 }
 
-@media screen and (min-width: 1728px) { 
+@media screen and (min-width: 1366px) { 
+
+.botão__principal:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+    
+.topicos__item:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.swiper-slide:hover {
+    transform: scale(1.1);
+    transition: 700ms;
+}
+
 .carrossel__container {
     display: flex;
     margin: 0 20vw 3em 20vw;
@@ -150,4 +166,8 @@ width: 100%;
 .descricao {
     margin-right: 2em;
 }
+.botão__principal:active {
+    background-color: var(--azul);
+}
+
 }
