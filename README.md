@@ -1,5 +1,4 @@
 <h1 align="center">AluraBooks </h1>
-![image](https://user-images.githubusercontent.com/113129822/234937942-f9f91310-47bd-4928-bf29-a9b358ae44a8.png)
 
 Esse projeto consiste na criação de um website de venda de livros online, do Grupo Alura.
 Aqui, o objetivo era desenvolver "mobile first", ou seja, iniciar a criação pela versão mobile (acessível em smartphones) e ir adaptando para telas de tablets e desktop, utlizando media queries, de forma responsiva e adaptável, utilizando apenas HTML e CSS para estilização. 
@@ -8,4 +7,4 @@ Um projeto desafiador, mas que proporcionou muito aprendizado, além de uma gran
 
 ![image](https://user-images.githubusercontent.com/113129822/234940801-d0e04724-e280-4a13-9597-c01344959914.png)
 
-Vc pode acessar através do link: https://alurabooks-five-sigma.vercel.app/
+Vc pode acessar através do link: https://alurabooks-five-sigma.vercel.app
