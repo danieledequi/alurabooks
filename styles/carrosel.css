@@ -43,13 +43,6 @@ width: 100%;
     padding: 1em;
 }
 
-.descricao__titulo {
-    font-family: var(fonte-principal);
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--laranja);
-}
-
 .descricao__titulo-livro {
     color: var(--azul-escuro);
     font-size:18px;
@@ -83,21 +76,7 @@ width: 100%;
     color: var(--laranja);
 }
 
-.descricao__titulo-livro {
-    color: var(--azul-escuro);
-    font-size:18px;
-    font-weight: 700;
-    margin: 0.5em 0;
-}
-
-.descricao__texto {
-    color: var(--preto);
-    font-size: 14px;
-    font-weight: 400;
-}
-
 @media screen and (min-width: 1024px) { 
-
 .carrossel__titulo {
     font-size: 26px;
 }
@@ -121,8 +100,7 @@ width: 100%;
 }
 
 @media screen and (min-width: 1366px) { 
-
-.botão__principal:hover {
+  .botão__principal:hover {
     transform: scale(1.1);
     transition: all 0.5s;
 }
@@ -133,10 +111,9 @@ width: 100%;
 }
 
 .swiper-slide:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: 700ms;
 }
-
 .carrossel__container {
     display: flex;
     margin: 0 20vw 3em 20vw;
@@ -145,14 +122,17 @@ width: 100%;
 
 .swiper-pagination {
     margin: 1em 0;
+    height: 80%;
 }
 
 .swiper {
     width: 50%;
+  
 }
 
 .descricao__titulo {
-   font-size: 32px;
+   font-size: 25px;
+   text-align:initial;
 }
 
 .descricao__texto {
